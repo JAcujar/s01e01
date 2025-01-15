@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from 'react-icons/bi';
 import phrases from './phrases.json';
 import { bg1, bg2, bg3, bg4 } from './assets/images';
-import './app.css';
+import './App.css';
 
 function getRandomIndex(arr) {
 	return Math.floor(Math.random() * arr.length);
